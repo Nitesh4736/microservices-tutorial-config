@@ -1,1 +1,11 @@
 
+eureka:
+  instance:
+    prefer-ip-address: true
+    #the below client property is by default true so it is not mandatory to write them
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    #provide url of eureka server so that this project get register there
+    service-url:
+      defaultZone: http://localhost:8084/eureka
