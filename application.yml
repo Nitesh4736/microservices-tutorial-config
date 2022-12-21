@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: true
     #provide url of eureka server so that this project get register there
     service-url:
-      defaultZone: http://localhost:8084/eureka
+      defaultZone: http://localhost:8761/eureka
